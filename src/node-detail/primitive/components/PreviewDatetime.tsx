@@ -1,4 +1,4 @@
-import { Table, TableBody, TableCell, TableColumn, TableHeader, TableRow } from '@nextui-org/table';
+import { Table, TableBody, TableCell, TableColumn, TableHeader, TableRow } from '@heroui/table';
 import { addMinutes, format } from 'date-fns';
 import { Key, memo, useEffect, useState } from 'react';
 import { Calendar } from './Calendar';

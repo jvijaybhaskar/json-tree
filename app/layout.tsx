@@ -14,7 +14,7 @@ const RootLayout = ({ children }: Props) => {
     <html lang="en">
       <body className={inter.className}>
         <Providers>{children}</Providers>
-        <AnalyticsWrapper />
+        {/* <AnalyticsWrapper /> */}
       </body>
     </html>
   );
